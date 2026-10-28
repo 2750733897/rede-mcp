@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rede-mcp"
+version = "0.1.0"
+description = "让 AI 直接使用锐华 ReDe(ReWorks) 内置调试能力的 MCP 服务：MI2 直连 redb.exe，或经 shim 借用 IDE 已建立的调试会话"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["mcp>=1.30,<2"]
+keywords = ["mcp", "gdb", "mi2", "rede", "reworks", "embedded", "debugger"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Debuggers",
+    "Environment :: Win32 (MS Windows)",
+]
+
+[project.urls]
+Homepage = "https://github.com/2750733897/rede-mcp"
+
+[project.scripts]
+rede-mcp = "rede_mcp_server:main"
+
+[tool.setuptools]
+py-modules = ["rede_mcp_server"]

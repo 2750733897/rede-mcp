@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="cn.com.ecict.rede.debugTool.ia32.core.debugLaunchConfigurationType">
+<stringAttribute key="REDE_PATH" value="D:/guangxin7045/6.1.1-ARM/tools/bin;D:/guangxin7045/6.1.1-ARM/tools/build/gnuarm/bin;"/>
+<stringAttribute key="build" value="gnuarm/FMQL_32BITS_SMP_BOARD"/>
+<stringAttribute key="cn.com.ecict.rede.target.debug.launch.HOST_ATTR" value="192.168.0.100"/>
+<stringAttribute key="debug_mode" value="net"/>
+<stringAttribute key="fileprogram" value="gnuarm/FMQL_32BITS_SMP_BOARD/reworks.elf"/>
+<stringAttribute key="level" value="task_level"/>
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.REMOTE_TCP" value="true"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="D:\guangxin7045\6.1.1-ARM\workspace\_ai_artifacts\rede_mcp\shim\bin\redb_shim.exe"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.GDB_INIT" value=".gdbinit"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.HOST" value="192.168.0.100"/>
+<booleanAttribute key="org.eclipse.cdt.dsf.gdb.NON_STOP" value="true"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.PORT" value="30253"/>
+<booleanAttribute key="org.eclipse.cdt.dsf.gdb.REMOTE_TCP" value="true"/>
+<booleanAttribute key="org.eclipse.cdt.dsf.gdb.REVERSE" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.dsf.gdb.UPDATE_THREADLIST_ON_SUSPEND" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="gdbserver"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="remote"/>
+<booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN_SYMBOL" value="UserInit"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="D:\guangxin7045\6.1.1-ARM\workspace\hello\gnuarm\FMQL_32BITS_SMP_BOARD\hello.obj"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="hello"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/hello"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;/&gt;&#13;&#10;"/>
+</launchConfiguration>

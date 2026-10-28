@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 运行时产物：MI 流水日志、实例登记、控制口状态
+*.jsonl
+out_*.txt
+shim/bin/ctrl/
+shim/ctrl/
+shim/bin_next/
+
+# PyInstaller 中间产物（只留 spec 与 bin/ 下的成品 exe）
+/shim/build/redb_shim/
+/dist/
+/*.spec
+
+# 旧版本 exe 与备份
+*.exe.*
+*.orig.bak
+*.bak
