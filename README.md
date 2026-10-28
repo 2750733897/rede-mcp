@@ -159,7 +159,8 @@ $ rede_tcf_hello -> frame_type=E service=Locator command=Hello services=14
 | `board_shell.py` | 经 `localhost:9999` 串口桥在 `reworks>` shell 执行命令 |
 | `tcf_frame_probe*.py` | TCF 帧格式对照实验（路线 A2 的起点） |
 
-MCP 配置已写入 `C:\Users\27507\.workbuddy\mcp.json`（服务名 `rede-debug`）。
+MCP 配置写在客户端的配置文件里（WorkBuddy 为 `~/.workbuddy/mcp.json`，服务名 `rede-debug`；
+其他客户端见 §0.1）。
 
 ---
 
